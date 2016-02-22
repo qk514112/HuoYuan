@@ -21,5 +21,6 @@ typedef enum : NSUInteger {
 
 + (NSString *)getUserDefault:(NSString *)key type:(UsertDefaultValueType)type;
 + (void)setUserDefault:(NSString *)value key:(NSString *)key type:(UsertDefaultValueType)type;
++ (AppDelegate *)getAppdelegate;
 
 @end

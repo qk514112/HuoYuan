@@ -79,4 +79,9 @@
     [ud synchronize];
 }
 
++ (AppDelegate *)getAppdelegate
+{
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
 @end

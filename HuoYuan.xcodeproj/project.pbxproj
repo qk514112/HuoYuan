@@ -18,6 +18,7 @@
 		DF3771E11C55EA1100B1EB19 /* app_icon_76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3771DA1C55EA1100B1EB19 /* app_icon_76x76.png */; };
 		DF3771E21C55EA1100B1EB19 /* app_icon_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3771DB1C55EA1100B1EB19 /* app_icon_72x72.png */; };
 		DF3771E31C55EA1100B1EB19 /* app_icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3771DC1C55EA1100B1EB19 /* app_icon_57x57.png */; };
+		DF7A83481C7B0DEF007ABAE7 /* DealPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A83461C7B0DEF007ABAE7 /* DealPasswordView.m */; };
 		DF8B9B901C314ED100FCA90A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B9B8F1C314ED100FCA90A /* main.m */; };
 		DF8B9B931C314ED100FCA90A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B9B921C314ED100FCA90A /* AppDelegate.m */; };
 		DF8B9B961C314ED100FCA90A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B9B951C314ED100FCA90A /* ViewController.m */; };
@@ -27,6 +28,9 @@
 		DF8B9BBB1C31518B00FCA90A /* DataUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B9BBA1C31518B00FCA90A /* DataUtility.m */; };
 		DFDF7EBC1C49F1C900BC88FA /* icon_qrcode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFDF7EBB1C49F1C900BC88FA /* icon_qrcode@2x.png */; };
 		DFDF7EBE1C49F2E300BC88FA /* icon_row_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFDF7EBD1C49F2E300BC88FA /* icon_row_right@2x.png */; };
+		DFF58CB71C75B70C00C33092 /* ViewUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF58CB61C75B70C00C33092 /* ViewUtility.m */; };
+		DFF58CBA1C75BD2F00C33092 /* cardcheck_normor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF58CB81C75BD2F00C33092 /* cardcheck_normor@2x.png */; };
+		DFF58CBB1C75BD2F00C33092 /* cardcheck_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF58CB91C75BD2F00C33092 /* cardcheck_selected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		DF3771DA1C55EA1100B1EB19 /* app_icon_76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_76x76.png; sourceTree = "<group>"; };
 		DF3771DB1C55EA1100B1EB19 /* app_icon_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_72x72.png; sourceTree = "<group>"; };
 		DF3771DC1C55EA1100B1EB19 /* app_icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_57x57.png; sourceTree = "<group>"; };
+		DF7A83461C7B0DEF007ABAE7 /* DealPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealPasswordView.m; sourceTree = "<group>"; };
+		DF7A83471C7B0DEF007ABAE7 /* DealPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealPasswordView.h; sourceTree = "<group>"; };
+		DF7A83491C7B0E88007ABAE7 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		DF7A834A1C7B0F46007ABAE7 /* HuoYuan-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HuoYuan-prefix.pch"; sourceTree = "<group>"; };
 		DF8B9B8B1C314ED100FCA90A /* HuoYuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuoYuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8B9B8F1C314ED100FCA90A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF8B9B911C314ED100FCA90A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +76,10 @@
 		DF8B9BBA1C31518B00FCA90A /* DataUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUtility.m; sourceTree = "<group>"; };
 		DFDF7EBB1C49F1C900BC88FA /* icon_qrcode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_qrcode@2x.png"; sourceTree = "<group>"; };
 		DFDF7EBD1C49F2E300BC88FA /* icon_row_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_row_right@2x.png"; sourceTree = "<group>"; };
+		DFF58CB51C75B70C00C33092 /* ViewUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtility.h; sourceTree = "<group>"; };
+		DFF58CB61C75B70C00C33092 /* ViewUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtility.m; sourceTree = "<group>"; };
+		DFF58CB81C75BD2F00C33092 /* cardcheck_normor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardcheck_normor@2x.png"; sourceTree = "<group>"; };
+		DFF58CB91C75BD2F00C33092 /* cardcheck_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardcheck_selected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF7A83451C7B0DD3007ABAE7 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				DF7A83471C7B0DEF007ABAE7 /* DealPasswordView.h */,
+				DF7A83461C7B0DEF007ABAE7 /* DealPasswordView.m */,
+			);
+			name = CommonView;
+			sourceTree = "<group>";
+		};
 		DF8B9B821C314ED100FCA90A = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +130,7 @@
 		DF8B9B8D1C314ED100FCA90A /* HuoYuan */ = {
 			isa = PBXGroup;
 			children = (
+				DF7A83491C7B0E88007ABAE7 /* Constant.h */,
 				DF8B9B911C314ED100FCA90A /* AppDelegate.h */,
 				DF8B9B921C314ED100FCA90A /* AppDelegate.m */,
 				DF1B4FD51C45279F002DE6AD /* SettingDefaultPage.h */,
@@ -116,6 +138,7 @@
 				DF8B9B941C314ED100FCA90A /* ViewController.h */,
 				DF8B9B951C314ED100FCA90A /* ViewController.m */,
 				DF8B9BBC1C31519600FCA90A /* Utility */,
+				DF7A83451C7B0DD3007ABAE7 /* CommonView */,
 				DF8B9B9D1C314ED100FCA90A /* Assets.xcassets */,
 				DF8B9BA21C314ED100FCA90A /* Info.plist */,
 				DF8B9B9A1C314ED100FCA90A /* HuoYuan.xcdatamodeld */,
@@ -127,6 +150,8 @@
 		DF8B9B8E1C314ED100FCA90A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DFF58CB81C75BD2F00C33092 /* cardcheck_normor@2x.png */,
+				DFF58CB91C75BD2F00C33092 /* cardcheck_selected@2x.png */,
 				DF3771D61C55EA1100B1EB19 /* app_icon_152x152.png */,
 				DF3771D71C55EA1100B1EB19 /* app_icon_144x144.png */,
 				DF3771D81C55EA1100B1EB19 /* app_icon_120x120.png */,
@@ -140,6 +165,7 @@
 				DFDF7EBD1C49F2E300BC88FA /* icon_row_right@2x.png */,
 				DFDF7EBB1C49F1C900BC88FA /* icon_qrcode@2x.png */,
 				DF8B9B8F1C314ED100FCA90A /* main.m */,
+				DF7A834A1C7B0F46007ABAE7 /* HuoYuan-prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,6 +184,8 @@
 			children = (
 				DF8B9BB91C31518B00FCA90A /* DataUtility.h */,
 				DF8B9BBA1C31518B00FCA90A /* DataUtility.m */,
+				DFF58CB51C75B70C00C33092 /* ViewUtility.h */,
+				DFF58CB61C75B70C00C33092 /* ViewUtility.m */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -242,6 +270,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF58CBA1C75BD2F00C33092 /* cardcheck_normor@2x.png in Resources */,
+				DFF58CBB1C75BD2F00C33092 /* cardcheck_selected@2x.png in Resources */,
 				DFDF7EBE1C49F2E300BC88FA /* icon_row_right@2x.png in Resources */,
 				DF3771DE1C55EA1100B1EB19 /* app_icon_144x144.png in Resources */,
 				DF3771DD1C55EA1100B1EB19 /* app_icon_152x152.png in Resources */,
@@ -273,10 +303,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF8B9B961C314ED100FCA90A /* ViewController.m in Sources */,
+				DF7A83481C7B0DEF007ABAE7 /* DealPasswordView.m in Sources */,
 				DF8B9B9C1C314ED100FCA90A /* HuoYuan.xcdatamodeld in Sources */,
 				DF8B9B931C314ED100FCA90A /* AppDelegate.m in Sources */,
 				DF8B9B901C314ED100FCA90A /* main.m in Sources */,
 				DF8B9BBB1C31518B00FCA90A /* DataUtility.m in Sources */,
+				DFF58CB71C75B70C00C33092 /* ViewUtility.m in Sources */,
 				DF1B4FD71C45279F002DE6AD /* SettingDefaultPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +415,7 @@
 		DF8B9BB11C314ED100FCA90A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HuoYuan/HuoYuan-prefix.pch";
 				INFOPLIST_FILE = HuoYuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -394,6 +427,7 @@
 		DF8B9BB21C314ED100FCA90A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HuoYuan/HuoYuan-prefix.pch";
 				INFOPLIST_FILE = HuoYuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
