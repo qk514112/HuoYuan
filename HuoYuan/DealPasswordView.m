@@ -73,9 +73,14 @@
     [okBtn addTarget:self action:@selector(actionPasswordOkButton:) forControlEvents:UIControlEventTouchUpInside];
     [self.dealPwdInput addSubview:okBtn];
     
+    // Version -- No title icon.
+//    UIImageView *phoneImgView = [[UIImageView alloc] initWithFrame:CGRectMake(50, 23.5, 16, 17)];
+//    phoneImgView.image = [UIImage imageNamed:@"phone_alert_title_icon"];
+//    [self.dealPwdInput addSubview:phoneImgView];
+    
     UILabel *title = [[UILabel alloc] initWithFrame:CGRectMake(0, 15.5, 270, 34)];
     title.textAlignment = NSTextAlignmentCenter;
-    title.textColor = [UIColor colorWithRed:97/255.0 green:100/255.0 blue:109/255.0 alpha:1.0];
+    title.textColor = kBlackColor;
     title.font = [UIFont systemFontOfSize:17];
     title.text = @"请输入手机号码";
     [self.dealPwdInput addSubview:title];
@@ -92,8 +97,9 @@
     [self.dealPwdInput addSubview:inputBg];
     
     self.textField = [[UITextField alloc] initWithFrame:CGRectMake(10, 0, 230, 44)];
-    self.textField.textColor = [UIColor colorWithRed:97/255.0 green:100/255.0 blue:109/255.0 alpha:1.0];
+    self.textField.textColor = kBlackColor;
     self.textField.tintColor = [UIColor colorWithRed:208/255.0 green:16/255.0 blue:44/255.0 alpha:1.0];
+    self.textField.keyboardType = UIKeyboardTypePhonePad;
     [inputBg addSubview:self.textField];
 }
 
