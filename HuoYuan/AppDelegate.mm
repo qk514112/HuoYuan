@@ -10,7 +10,8 @@
 #import <BaiduMapAPI_Location/BMKLocationService.h>
 #import "MobClick.h"
 #import "UMSocial.h"
-
+#import "UMSocialWechatHandler.h"
+#import "UMSocialQQHandler.h"
 #import "ViewController.h"
 #import "SettingDefaultPage.h"
 
@@ -31,6 +32,12 @@
     [UMSocialData setAppKey:kUMAPPKey];
     [UMSocialConfig hiddenNotInstallPlatforms:@[UMShareToQQ, UMShareToQzone, UMShareToWechatSession, UMShareToWechatTimeline]];
 
+    //设置微信AppId、appSecret，分享url
+    [UMSocialWechatHandler setWXAppId:@"wxbe94c00afcb26bba" appSecret:@"a55bf02cf417ee31a440feaa4d7a9503" url:@"http://www.pj.com"];
+    
+    //设置分享到QQ/Qzone的应用Id，和分享url 链接
+    [UMSocialQQHandler setQQWithAppId:@"1105205198" appKey:@"M2iILXezpi84pQV2" url:@"http://www.pj.com"];
+    
     // 使用集成测试服务
     [MobClick setLogEnabled:YES];
     

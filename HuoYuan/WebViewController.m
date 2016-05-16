@@ -51,7 +51,7 @@
 
 - (void)addWebView
 {
-    self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, kMSScreenWidth, kMSScreenHeight - 64)];
+    self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, kMSScreenWidth, kMSScreenHeight)];
     self.webView.scalesPageToFit = YES;
     self.webView.scrollView.bounces = NO;
     [self.webView loadRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:self.urlStr]]];
@@ -75,13 +75,24 @@
 #pragma mark action
 - (void)actionShare:(id)sender
 {
-//    , UMShareToTencent, UMShareToRenren, UMShareToAlipaySession, UMShareToSms, UMShareToEmail, UMShareToDouban, UMShareToLWSession, UMShareToLWTimeline,
+    NSString *result = @"http://www.pj.com";
     [UMSocialSnsService presentSnsIconSheetView:self
                                          appKey:kUMAPPKey
                                       shareText:@"分享的文字"
                                      shareImage:[UIImage imageNamed:@"share_app_icon.png"]
-                                shareToSnsNames:[NSArray arrayWithObjects:UMShareToSina, UMShareToRenren, UMShareToTencent, UMShareToRenren, UMShareToAlipaySession, UMShareToSms, UMShareToEmail, UMShareToDouban, UMShareToLWSession, UMShareToLWTimeline, nil]
+                                shareToSnsNames:[NSArray arrayWithObjects:UMShareToWechatSession,UMShareToWechatTimeline,UMShareToWechatFavorite, UMShareToRenren, UMShareToTencent, UMShareToSms, UMShareToEmail, UMShareToDouban, UMShareToLWSession, UMShareToLWTimeline, nil]
                                        delegate:nil];
+    [UMSocialData defaultData].extConfig.wechatSessionData.shareText = [NSString stringWithFormat:@"【任性送金条】下载注册“票据宝金融”，金银红包满地跑！真的还有金条！你要红包还是金条？！%@", result];
+    [UMSocialData defaultData].extConfig.wechatFavoriteData.shareText = [NSString stringWithFormat:@"【任性送金条】下载注册“票据宝金融”，金银红包满地跑！真的还有金条！你要红包还是金条？！%@", result];
+    [UMSocialData defaultData].extConfig.smsData.shareText = [NSString stringWithFormat:@"【票据宝金融壕送金条】我试过了,真的能拿好多现金红包! 还有可能拿金条! 赶紧下载APP一起来! 赚翻了! %@", result];
+    [UMSocialData defaultData].extConfig.wechatSessionData.shareImage = [UIImage imageNamed:@"share_app_icon.png"];
+    [UMSocialData defaultData].extConfig.wechatTimelineData.shareImage = [UIImage imageNamed:@"share_app_icon.png"];
+    [UMSocialData defaultData].extConfig.wechatFavoriteData.shareImage = [UIImage imageNamed:@"share_app_icon.png"];
+    [UMSocialData defaultData].extConfig.smsData.shareImage = nil;
+    [UMSocialData defaultData].extConfig.wechatSessionData.title = @"票据宝金融";
+    [UMSocialData defaultData].extConfig.wechatTimelineData.title = @"【任性送金条】下载注册“票据宝金融”，金银红包满地跑！真的还有金条！";
+    [UMSocialData defaultData].extConfig.wechatSessionData.url = result;
+    [UMSocialData defaultData].extConfig.wechatTimelineData.url = result;
 }
 
 @end

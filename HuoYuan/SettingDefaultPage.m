@@ -14,6 +14,8 @@
 
 #import "DealPasswordView.h"
 #import "WebViewController.h"
+#import "APITestTableViewController.h"
+
 
 @interface SettingDefaultPage () <DealPasswordDelegate, ZBarReaderDelegate>
 
@@ -22,6 +24,7 @@
 @property (nonatomic, strong) DealPasswordView       *dealPwdView;
 
 @end
+
 
 @implementation SettingDefaultPage
 
@@ -222,7 +225,7 @@
 
 - (void)actionAPITestPage:(id)sender
 {
-    WebViewController *ctr = [[WebViewController alloc] initWithUrlString:@"http://web.huoyuan.mobi/sample/openapp.aspx" title:@"移动货源接口测试"];
+    APITestTableViewController *ctr = [[APITestTableViewController alloc] init];
     [self.navigationController pushViewController:ctr animated:YES];
 }
 

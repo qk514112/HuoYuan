@@ -66,6 +66,11 @@
 		DF7A84011C7DBCA8007ABAE7 /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7A83F51C7DBCA8007ABAE7 /* UMSShareListController.xib */; };
 		DF7A84021C7DBCA8007ABAE7 /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF7A83F61C7DBCA8007ABAE7 /* UMSocialSDKResourcesNew.bundle */; };
 		DF7A84051C7EA040007ABAE7 /* APITestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A84041C7EA040007ABAE7 /* APITestTableViewController.m */; };
+		DF7A840D1C7EF715007ABAE7 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7A84071C7EF715007ABAE7 /* libSocialWechat.a */; };
+		DF7A840E1C7EF715007ABAE7 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7A84081C7EF715007ABAE7 /* libWeChatSDK.a */; };
+		DF7A84141C805955007ABAE7 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7A84101C805955007ABAE7 /* libSocialQQ.a */; };
+		DF7A84151C805955007ABAE7 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7A84111C805955007ABAE7 /* TencentOpenAPI.framework */; };
+		DF7A84161C805955007ABAE7 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF7A84121C805955007ABAE7 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		DF8B9B901C314ED100FCA90A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B9B8F1C314ED100FCA90A /* main.m */; };
 		DF8B9B931C314ED100FCA90A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DF8B9B921C314ED100FCA90A /* AppDelegate.mm */; };
 		DF8B9B961C314ED100FCA90A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B9B951C314ED100FCA90A /* ViewController.m */; };
@@ -189,6 +194,16 @@
 		DF7A83F71C7DBCA8007ABAE7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
 		DF7A84031C7EA040007ABAE7 /* APITestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APITestTableViewController.h; sourceTree = "<group>"; };
 		DF7A84041C7EA040007ABAE7 /* APITestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APITestTableViewController.m; sourceTree = "<group>"; };
+		DF7A84071C7EF715007ABAE7 /* libSocialWechat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWechat.a; sourceTree = "<group>"; };
+		DF7A84081C7EF715007ABAE7 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		DF7A84091C7EF715007ABAE7 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		DF7A840A1C7EF715007ABAE7 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		DF7A840B1C7EF715007ABAE7 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		DF7A840C1C7EF715007ABAE7 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		DF7A84101C805955007ABAE7 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		DF7A84111C805955007ABAE7 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		DF7A84121C805955007ABAE7 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		DF7A84131C805955007ABAE7 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
 		DF8B9B8B1C314ED100FCA90A /* HuoYuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuoYuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8B9B8F1C314ED100FCA90A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF8B9B911C314ED100FCA90A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -218,6 +233,7 @@
 			files = (
 				DF7A83B21C7D8258007ABAE7 /* libz.tbd in Frameworks */,
 				DF7A83AA1C7D4DD1007ABAE7 /* libzbar.a in Frameworks */,
+				DF7A84151C805955007ABAE7 /* TencentOpenAPI.framework in Frameworks */,
 				DF7A83A71C7C64CF007ABAE7 /* libiconv.2.4.0.tbd in Frameworks */,
 				DF7A83601C7C06F8007ABAE7 /* QuartzCore.framework in Frameworks */,
 				DF7A83A51C7C64B5007ABAE7 /* CoreVideo.framework in Frameworks */,
@@ -228,13 +244,16 @@
 				DF7A839F1C7C6492007ABAE7 /* AVFoundation.framework in Frameworks */,
 				DF7A836E1C7C074D007ABAE7 /* libstdc++.6.0.9.tbd in Frameworks */,
 				DF7A836C1C7C0743007ABAE7 /* CoreTelephony.framework in Frameworks */,
+				DF7A84141C805955007ABAE7 /* libSocialQQ.a in Frameworks */,
 				DF7A836A1C7C0733007ABAE7 /* libsqlite3.0.tbd in Frameworks */,
 				DF7A83681C7C0727007ABAE7 /* Security.framework in Frameworks */,
 				DF7A83641C7C070B007ABAE7 /* SystemConfiguration.framework in Frameworks */,
 				DF7A83621C7C0701007ABAE7 /* OpenGLES.framework in Frameworks */,
+				DF7A840D1C7EF715007ABAE7 /* libSocialWechat.a in Frameworks */,
 				DF7A835E1C7C06EC007ABAE7 /* CoreLocation.framework in Frameworks */,
 				DF7A83551C7BF821007ABAE7 /* BaiduMapAPI_Cloud.framework in Frameworks */,
 				DF7A83561C7BF821007ABAE7 /* BaiduMapAPI_Location.framework in Frameworks */,
+				DF7A840E1C7EF715007ABAE7 /* libWeChatSDK.a in Frameworks */,
 				DF7A83591C7BF821007ABAE7 /* BaiduMapAPI_Search.framework in Frameworks */,
 				DF7A83581C7BF821007ABAE7 /* BaiduMapAPI_Radar.framework in Frameworks */,
 				DF7A83541C7BF821007ABAE7 /* BaiduMapAPI_Base.framework in Frameworks */,
@@ -372,6 +391,30 @@
 			path = SocialSDKXib;
 			sourceTree = "<group>";
 		};
+		DF7A84061C7EF715007ABAE7 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				DF7A84071C7EF715007ABAE7 /* libSocialWechat.a */,
+				DF7A84081C7EF715007ABAE7 /* libWeChatSDK.a */,
+				DF7A84091C7EF715007ABAE7 /* UMSocialWechatHandler.h */,
+				DF7A840A1C7EF715007ABAE7 /* WechatAuthSDK.h */,
+				DF7A840B1C7EF715007ABAE7 /* WXApi.h */,
+				DF7A840C1C7EF715007ABAE7 /* WXApiObject.h */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+		DF7A840F1C805955007ABAE7 /* TencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				DF7A84101C805955007ABAE7 /* libSocialQQ.a */,
+				DF7A84111C805955007ABAE7 /* TencentOpenAPI.framework */,
+				DF7A84121C805955007ABAE7 /* TencentOpenApi_IOS_Bundle.bundle */,
+				DF7A84131C805955007ABAE7 /* UMSocialQQHandler.h */,
+			);
+			path = TencentOpenAPI;
+			sourceTree = "<group>";
+		};
 		DF8B9B821C314ED100FCA90A = {
 			isa = PBXGroup;
 			children = (
@@ -417,6 +460,8 @@
 		DF8B9B8E1C314ED100FCA90A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF7A840F1C805955007ABAE7 /* TencentOpenAPI */,
+				DF7A84061C7EF715007ABAE7 /* Wechat */,
 				DF7A83B11C7D8258007ABAE7 /* libz.tbd */,
 				DF7A83AE1C7D820D007ABAE7 /* libMobClickLibrary.a */,
 				DF7A83AF1C7D820D007ABAE7 /* MobClick.h */,
@@ -594,6 +639,7 @@
 				DF3771E31C55EA1100B1EB19 /* app_icon_57x57.png in Resources */,
 				DF3771CE1C55CA5000B1EB19 /* icon_mobile_phone@2x.png in Resources */,
 				DF3771E21C55EA1100B1EB19 /* app_icon_72x72.png in Resources */,
+				DF7A84161C805955007ABAE7 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				DF3771E11C55EA1100B1EB19 /* app_icon_76x76.png in Resources */,
 				DF7A84011C7DBCA8007ABAE7 /* UMSShareListController.xib in Resources */,
 				DF7A83FF1C7DBCA8007ABAE7 /* UMSLoginViewController.xib in Resources */,
@@ -755,6 +801,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/HuoYuan/TencentOpenAPI",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HuoYuan/HuoYuan-prefix.pch";
 				INFOPLIST_FILE = HuoYuan/Info.plist;
@@ -765,6 +812,8 @@
 					"$(PROJECT_DIR)/HuoYuan/ZBarSDK",
 					"$(PROJECT_DIR)/HuoYuan",
 					"$(PROJECT_DIR)/HuoYuan/UMSocial_Sdk_5.0",
+					"$(PROJECT_DIR)/HuoYuan/Wechat",
+					"$(PROJECT_DIR)/HuoYuan/TencentOpenAPI",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qike.HuoYuan;
@@ -781,6 +830,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/HuoYuan/TencentOpenAPI",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HuoYuan/HuoYuan-prefix.pch";
 				INFOPLIST_FILE = HuoYuan/Info.plist;
@@ -791,6 +841,8 @@
 					"$(PROJECT_DIR)/HuoYuan/ZBarSDK",
 					"$(PROJECT_DIR)/HuoYuan",
 					"$(PROJECT_DIR)/HuoYuan/UMSocial_Sdk_5.0",
+					"$(PROJECT_DIR)/HuoYuan/Wechat",
+					"$(PROJECT_DIR)/HuoYuan/TencentOpenAPI",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qike.HuoYuan;
